@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Album } from '../album';
 import { ProductService } from '../product.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-tracklisting',
